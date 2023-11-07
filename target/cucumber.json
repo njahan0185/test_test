@@ -1,0 +1,82 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 28,
+        "name": "Verify Error message (Please fill out this field) should appear when sent without email.",
+        "description": "",
+        "id": "this-is-a-subscription-featuree;verify-error-message-(please-fill-out-this-field)-should-appear-when-sent-without-email.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6221235400,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Launch \u003c\"URL\"\u003e Next",
+            "match": {
+              "arguments": [
+                {
+                  "val": "URL",
+                  "offset": 9
+                }
+              ],
+              "location": "NEXTeTICKET_SubNews.launch_Next(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 16196400,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Scroll down till Subscribe To Newsletter",
+            "match": {
+              "location": "NEXTeTICKET_SubNews.scroll_down_till_Subscribe_To_Newsletter()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1104443000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Click send button without entering the email",
+            "match": {
+              "location": "NEXTeTICKET_SubNews.click_send_button_without_entering_the_email()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6412375300,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Verify Please fill out this field this Error messages appears when sent without email",
+            "match": {
+              "location": "NEXTeTICKET_SubNews.verify_Please_fill_out_this_field_this_Error_messages_appears_when_sent_without_email()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 27,
+            "name": "@NexT5"
+          }
+        ]
+      }
+    ],
+    "name": "This is a Subscription featuree",
+    "description": "",
+    "id": "this-is-a-subscription-featuree",
+    "keyword": "Feature",
+    "uri": "NEXTeTICKET_SubNews.feature"
+  }
+]

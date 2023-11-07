@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-29T20:18:25 CDT" name="Default suite" finished-at="2023-10-29T20:18:43 CDT" duration-ms="17114">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:NEXTeTICKET_TestRunner.NEXTeTICKET_TestRunner@4e5ed836]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2023-10-29T20:18:25 CDT" name="Default test" finished-at="2023-10-29T20:18:43 CDT" duration-ms="17114">
+      <class name="NEXTeTICKET_TestRunner.NEXTeTICKET_TestRunner">
+        <test-method is-config="true" signature="nextStartURL()[pri:0, instance:NEXTeTICKET_TestRunner.NEXTeTICKET_TestRunner@4e5ed836]" started-at="2023-10-29T20:18:25 CDT" name="nextStartURL" finished-at="2023-10-29T20:18:28 CDT" duration-ms="2678" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nextStartURL -->
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:NEXTeTICKET_TestRunner.NEXTeTICKET_TestRunner@4e5ed836]" started-at="2023-10-29T20:18:28 CDT" name="setUpClass" finished-at="2023-10-29T20:18:28 CDT" duration-ms="204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:NEXTeTICKET_TestRunner.NEXTeTICKET_TestRunner@4e5ed836]" started-at="2023-10-29T20:18:28 CDT" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2023-10-29T20:18:42 CDT" duration-ms="13825" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[This is a Subscription featuree]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:NEXTeTICKET_TestRunner.NEXTeTICKET_TestRunner@4e5ed836]" started-at="2023-10-29T20:18:42 CDT" name="tearDownClass" finished-at="2023-10-29T20:18:42 CDT" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method is-config="true" signature="nextCloseURL()[pri:0, instance:NEXTeTICKET_TestRunner.NEXTeTICKET_TestRunner@4e5ed836]" started-at="2023-10-29T20:18:42 CDT" name="nextCloseURL" finished-at="2023-10-29T20:18:43 CDT" duration-ms="263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nextCloseURL -->
+      </class> <!-- NEXTeTICKET_TestRunner.NEXTeTICKET_TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
